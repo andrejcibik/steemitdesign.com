@@ -25,7 +25,7 @@
 	<link rel="apple-touch-icon" href="assets/images/favicon-touch.png?v=1"/>
 
 
-	<link defer href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,700&amp;subset=latin-ext" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700|Source+Serif+Pro" rel="stylesheet">
 
 	<link defer rel="stylesheet" type="text/css" href="assets/font/icon-font.css?v=1" />
   <link defer rel="stylesheet" type="text/css" href="assets/css/main.css?v=1" />
