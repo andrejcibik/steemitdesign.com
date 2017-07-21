@@ -59,6 +59,7 @@
 			<span class="pre-heading">Web - UI</span>
 			<h3 class="h2 source-sans">Source Sans Pro</h3>
 			<a href="https://fonts.google.com/specimen/Source+Sans+Pro" target="_blank">Download from Google fonts</a>
+			<br><br>
 		</div>
 
 		<div class="small-6 medium-5 large-3">
@@ -196,7 +197,7 @@
 	<div class="footer centered">
 		I dont own the Steemit brand. This is my personal initiative and owners of Steemit brand have all the rights to all materials on this page.
 		<br>
-		@ Steemit.com 2017
+		© Steemit.com 2017
 	</div>
 
 	<div class="separator small"></div>
