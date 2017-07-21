@@ -1,0 +1,55 @@
+
+.color-picker
+	position: relative
+	background: pink
+	height: 200px
+	cursor: pointer
+	transition: all .3s
+
+	&:hover
+		transform: scale(1.07)
+		z-index: 1
+
+	&:active
+		transform: scale(1.04)
+		filter: brightness(85%)
+
+.color-picker
+	&.grey
+		background: #333
+		&:hover
+			box-shadow: 0 13px 30px -7px rgba(51, 51, 51, 0.64)
+
+	&.dark-blue
+		background: #1a5099
+		&:hover
+			box-shadow: 0 13px 30px -7px rgba(26, 80, 153, .8)
+
+	&.light-blue
+		background: #4ba2f2
+		&:hover
+			box-shadow: 0 13px 30px -7px rgba(75, 162, 242, .8)
+
+	.hex,
+	.text
+		position: absolute
+		top: 50%
+		left: 50%
+		transform: translate(-50%,-50%)
+		font-size: 20px
+		color: #fff
+		transition: all .3s
+
+		.icon-eyedropper
+			font-size: .9em
+			margin-left: 5px
+
+	.text
+		opacity: 0
+
+	&:hover
+		.hex
+			opacity: 0
+
+		.text
+			opacity: 1

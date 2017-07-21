@@ -214,6 +214,30 @@ $(document).ready(function() {
 			}
 			document.title = message;
 		});
-// INACTIVE TAB TITLE -
+	// INACTIVE TAB TITLE -
 
+
+	// COPY +
+		$('.color-picker').click(function(){
+
+			var text = $(this).find('.content').text();
+			var $temp = $("<input>");
+			$("body").append($temp);
+			$temp.val(text).select();
+			document.execCommand("copy");
+			$temp.remove();
+
+			$(this).find('.text').html('Copied!');
+
+		});
+
+		$('.donate').click(function(){
+			var text = $(this).find('.address').text();
+			var $temp = $("<input>");
+			$("body").append($temp);
+			$temp.val(text).select();
+			document.execCommand("copy");
+			$temp.remove();
+		});
+	// COPY -
 });

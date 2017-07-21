@@ -21,23 +21,57 @@ h1, h2, h3, h4, h5, h6
 
 h1,.h1
 	position: relative
-	font-size: 80px
+	font-size: 100px
 	font-weight: 700
 	line-height: 1.2
 	text-transform: none
 	padding: 0
 
+.width-lt-980
+	h1,.h1
+		font-size: 74px
+
+.width-lt-640
+	h1,.h1
+		font-size: 62px
+
+.width-lt-400
+	h1,.h1
+		font-size: 54px
+
 h2,.h2
 	font-size: 62px
 	line-height: 1.1
 	margin-bottom: 30px
-	transform: translateX(-3px)
 
+.width-lt-980
+	h2,.h2
+		font-size: 44px
+
+.width-lt-640
+	h2,.h2
+		font-size: 36px
+
+.width-lt-400
+	h2,.h2
+		font-size: 30px
 
 h3,.h3
 	font-size: 36px
 	line-height: 1.38
 	margin-bottom: 15px
+
+.width-lt-980
+	h3,.h3
+		font-size: 32px
+
+.width-lt-640
+	h3,.h3
+		font-size: 30px
+
+.width-lt-400
+	h3,.h3
+		font-size: 28px
 
 h4,.h4
 	font-size: 22px
@@ -51,7 +85,8 @@ h4,.h4
 	text-transform: uppercase
 
 strong
-  font-weight: 700
+	font-weight: 600
+	color: $dark
 
 hr
   border: solid #ddd
@@ -67,3 +102,8 @@ hr
 .source-serif
 	font-family: 'Source Serif Pro', serif
 	font-weight: 400
+
+.white-text
+	font-size: .8em
+	color: #fff
+	opacity: .5

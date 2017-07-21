@@ -10,6 +10,13 @@
 	max-width: 960px
 	margin: 0 auto
 
+.width-lt-980
+	.content-wrap
+		padding: 0 30px
+
+.width-lt-640
+	.content-wrap
+		padding: 0 20px
 
 .separator
 	height: 170px
@@ -17,5 +24,65 @@
 	&.small
 		height: 100px
 
+.width-lt-980
+	.separator
+		height: 130px
+
+		&.small
+			height: 80px
+
+.width-lt-640
+	.separator
+		height: 100px
+
+		&.small
+			height: 60px
+
 .border-radius
 	border-radius: 32px
+
+.author
+	display: inline-block
+	width: 128px
+	height: 128px
+	background: url('../images/author.jpg')
+	background-size: cover
+	border-radius: 50%
+	box-shadow: 0 10px 30px rgba(0, 0, 0, .1)
+
+.footer
+	font-size: 16px
+
+.donate
+	position: relative
+	cursor: pointer
+	margin: 10px
+	transition: all .2s
+
+	.address
+		display: none
+
+	.icon-copy
+		color: $blue
+		transition: all .3s
+
+	&:hover
+		.icon-copy
+			color: $dark
+
+	&:active
+		transform: scale(1.03)
+
+.flaoting-name
+	display: none
+
+.width-gt-980
+	.flaoting-name
+		display: inline-block
+		position: fixed
+		bottom: 65px
+		right: -20px
+		font-size: 18px
+		font-weight: 300
+		color: $grey
+		transform: rotate(-90deg)

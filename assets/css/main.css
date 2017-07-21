@@ -1158,7 +1158,6 @@ body {
 
 .width-lt-980 {
   padding: 0;
-  padding-top: 60px;
 }
 
 ::selection {
@@ -1235,24 +1234,59 @@ h1, h2, h3, h4, h5, h6 {
 
 h1, .h1 {
   position: relative;
-  font-size: 80px;
+  font-size: 100px;
   font-weight: 700;
   line-height: 1.2;
   text-transform: none;
   padding: 0;
 }
 
+.width-lt-980 h1, .width-lt-980 .h1 {
+  font-size: 74px;
+}
+
+.width-lt-640 h1, .width-lt-640 .h1 {
+  font-size: 62px;
+}
+
+.width-lt-400 h1, .width-lt-400 .h1 {
+  font-size: 54px;
+}
+
 h2, .h2 {
   font-size: 62px;
   line-height: 1.1;
   margin-bottom: 30px;
-  transform: translateX(-3px);
+}
+
+.width-lt-980 h2, .width-lt-980 .h2 {
+  font-size: 44px;
+}
+
+.width-lt-640 h2, .width-lt-640 .h2 {
+  font-size: 36px;
+}
+
+.width-lt-400 h2, .width-lt-400 .h2 {
+  font-size: 30px;
 }
 
 h3, .h3 {
   font-size: 36px;
   line-height: 1.38;
   margin-bottom: 15px;
+}
+
+.width-lt-980 h3, .width-lt-980 .h3 {
+  font-size: 32px;
+}
+
+.width-lt-640 h3, .width-lt-640 .h3 {
+  font-size: 30px;
+}
+
+.width-lt-400 h3, .width-lt-400 .h3 {
+  font-size: 28px;
 }
 
 h4, .h4 {
@@ -1267,7 +1301,8 @@ h4, .h4 {
 }
 
 strong {
-  font-weight: 700;
+  font-weight: 600;
+  color: #3f505f;
 }
 
 hr {
@@ -1285,6 +1320,12 @@ hr {
 .source-serif {
   font-family: 'Source Serif Pro', serif;
   font-weight: 400;
+}
+
+.white-text {
+  font-size: .8em;
+  color: #fff;
+  opacity: .5;
 }
 
 .button {
@@ -1317,6 +1358,10 @@ hr {
   background: #4aa1f1;
   color: #fff;
   box-shadow: 0 5px 13px rgba(74, 161, 241, 0.49);
+}
+
+.width-lt-640 .button {
+  font-size: 18px;
 }
 
 .button-white {
@@ -1374,14 +1419,94 @@ hr {
   display: block;
   width: 100%;
   color: white;
-  font-size: 108px;
   line-height: .7;
   margin-bottom: 60px;
 }
 
 .hero-section .title .subtitle {
-  font-size: 30px;
+  font-size: .4em;
   font-weight: 300;
+}
+
+.width-lt-640 .hero-inner {
+  left: 0;
+  right: 0;
+  transform: translate(0, -50%);
+}
+
+.width-lt-640 .hero-inner .title {
+  margin-bottom: 40px;
+}
+
+.color-picker {
+  position: relative;
+  background: pink;
+  height: 200px;
+  cursor: pointer;
+  transition: all .3s;
+}
+
+.color-picker:hover {
+  transform: scale(1.07);
+  z-index: 1;
+}
+
+.color-picker:active {
+  transform: scale(1.04);
+  filter: brightness(85%);
+}
+
+.color-picker.grey {
+  background: #333;
+}
+
+.color-picker.grey:hover {
+  box-shadow: 0 13px 30px -7px rgba(51, 51, 51, 0.64);
+}
+
+.color-picker.dark-blue {
+  background: #1a5099;
+}
+
+.color-picker.dark-blue:hover {
+  box-shadow: 0 13px 30px -7px rgba(26, 80, 153, 0.8);
+}
+
+.color-picker.light-blue {
+  background: #4ba2f2;
+}
+
+.color-picker.light-blue:hover {
+  box-shadow: 0 13px 30px -7px rgba(75, 162, 242, 0.8);
+}
+
+.color-picker .hex,
+.color-picker .text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  color: #fff;
+  transition: all .3s;
+}
+
+.color-picker .hex .icon-eyedropper,
+.color-picker .text .icon-eyedropper {
+  font-size: .9em;
+  margin-left: 5px;
+}
+
+.color-picker .text {
+  opacity: 0;
+}
+
+.color-picker:hover .hex {
+  opacity: 0;
+}
+
+.color-picker:hover .text {
+  opacity: 1;
 }
 
 /* COMMON STYLES START */
@@ -1395,6 +1520,14 @@ hr {
   margin: 0 auto;
 }
 
+.width-lt-980 .content-wrap {
+  padding: 0 30px;
+}
+
+.width-lt-640 .content-wrap {
+  padding: 0 20px;
+}
+
 .separator {
   height: 170px;
 }
@@ -1403,6 +1536,75 @@ hr {
   height: 100px;
 }
 
+.width-lt-980 .separator {
+  height: 130px;
+}
+
+.width-lt-980 .separator.small {
+  height: 80px;
+}
+
+.width-lt-640 .separator {
+  height: 100px;
+}
+
+.width-lt-640 .separator.small {
+  height: 60px;
+}
+
 .border-radius {
   border-radius: 32px;
+}
+
+.author {
+  display: inline-block;
+  width: 128px;
+  height: 128px;
+  background: url("../images/author.jpg");
+  background-size: cover;
+  border-radius: 50%;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+  font-size: 16px;
+}
+
+.donate {
+  position: relative;
+  cursor: pointer;
+  margin: 10px;
+  transition: all .2s;
+}
+
+.donate .address {
+  display: none;
+}
+
+.donate .icon-copy {
+  color: #4aa1f1;
+  transition: all .3s;
+}
+
+.donate:hover .icon-copy {
+  color: #3f505f;
+}
+
+.donate:active {
+  transform: scale(1.03);
+}
+
+.flaoting-name {
+  display: none;
+}
+
+.width-gt-980 .flaoting-name {
+  display: inline-block;
+  position: fixed;
+  bottom: 65px;
+  right: -20px;
+  font-size: 18px;
+  font-weight: 300;
+  color: #7e93a0;
+  transform: rotate(-90deg);
 }
