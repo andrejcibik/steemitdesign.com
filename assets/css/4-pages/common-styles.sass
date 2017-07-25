@@ -53,6 +53,8 @@
 .footer
 	font-size: 16px
 
+/* DONATE */
+
 .donate
 	position: relative
 	cursor: pointer
@@ -60,7 +62,31 @@
 	transition: all .2s
 
 	.address
-		display: none
+		position: absolute
+		top: 0
+		left: 50%
+		transform: translate(-50%, -105%)
+		min-width: 220px
+		background: #fff
+		padding: 10px
+		border-radius: 5px
+		opacity: 0
+		font-size: 16px
+		font-weight: 600
+		pointer-events: none
+		text-align: center
+		transition: all .4s
+		color: $blue
+		box-shadow: 0 10px 29px -9px rgba(63, 80, 95, 0.56)
+		z-index: 2
+
+		img
+			display: block
+			vertical-align: bottom
+			width: 100%
+
+		.data
+			display: none
 
 	.icon-copy
 		color: $blue
@@ -70,8 +96,11 @@
 		.icon-copy
 			color: $dark
 
-	&:active
-		transform: scale(1.03)
+.donate:hover
+	.address
+		opacity: 1
+		transform: translate(-50%, -85%)
+
 
 .flaoting-name
 	display: none

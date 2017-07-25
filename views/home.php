@@ -16,9 +16,9 @@
 			<span class="subtitle">design resources</span>
 		</h1>
 
-		<a href="data/Steemit_Design_Guidelines.zip" class="button sec button-white border-radius">Download guidelines</a>
+		<a href="https://drive.google.com/drive/folders/0ByYJdeOAU2QbazJRTHZsTWl0YXc?usp=sharing" target="_blank" class="button sec button-white border-radius">Download guidelines</a>
 		<br>
-		<span class="white-text">.zip 2.8 MB</span>
+		<a href="data/Steemit_Design_Guidelines.zip" class="white-text">.zip 2.8 MB</a>
 
 	</div>
 
@@ -42,7 +42,7 @@
 	<div class="separator small"></div>
 
 	<div class="centered">
-		<a href="data/Steemit_Logo.zip" class="button sec border-radius">Download all variants</a>
+		<a href="https://drive.google.com/drive/folders/0ByYJdeOAU2QbbVpMNG96RGdoS0E?usp=sharing" target="_blank" class="button sec border-radius">Download all variants</a>
 		<br>
 		<br>
 		<span class="subtle">.png, .svg</span>
@@ -155,9 +155,9 @@
 		<div class="small-6 medium-3 large-3 centered">
 			<br>
 			<br>
-			<a href="data/Steemit_Design_Guidelines.zip" class="button prim border-radius" title="Download .zip">Download guidelines</a>
+			<a href="https://drive.google.com/drive/folders/0ByYJdeOAU2QbazJRTHZsTWl0YXc?usp=sharing" class="button prim border-radius" title="Download from google drive">Download guidelines</a>
 			<br><br>
-			.zip 2.8 MB
+			<a href="data/Steemit_Design_Guidelines.zip">.zip 2.8 MB</a>
 			<br><br>
 			<br>
 		</div>
@@ -171,21 +171,35 @@
 
 			<span class="donate" title="Click to copy">
 				<strong>BTC </strong> &nbsp;<span class="icon-copy"></span>
-				<span class="address">1KCmWmXsPAjqv72JkRzHsxURTsCpcPUxkE</span>
+				<span class="address">
+					<img src="data/btc.PNG" alt="">
+					<span class="text">Click to copy address :)</span>
+					<span class="data">1KCmWmXsPAjqv72JkRzHsxURTsCpcPUxkE</span>
+				</span>
 			</span>
 
 			<span class="donate" title="Click to copy">
 				<strong>LTC </strong> &nbsp;<span class="icon-copy"></span>
-				<span class="address">0xF828Ddf7Ab60Bbee5862c22872d28C5e0218Ee89</span>
+				<span class="address">
+					<img src="data/ltc.PNG" alt="">
+					<span class="text">Click to copy address :)</span>
+					<span class="data">0xF828Ddf7Ab60Bbee5862c22872d28C5e0218Ee89</span>
+				</span>
 			</span>
 
 			<span class="donate" title="Click to copy">
 				<strong>ETH </strong> &nbsp;<span class="icon-copy"></span>
-				<span class="address">LRtdwiqTMXV4vmJ2bnKF1YaFjz2Sz15wsR</span>
+				<span class="address">
+					<img src="data/eth.PNG" alt="">
+					<span class="text">Click to copy address :)</span>
+					<span class="data">LRtdwiqTMXV4vmJ2bnKF1YaFjz2Sz15wsR</span>
+				</span>
 			</span>
 
 			<br><br>
-			24 year old designer and front-end developer.
+			24 year old designer and
+			<br>
+			front-end developer.
 
 		</div>
 
