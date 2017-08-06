@@ -75,6 +75,7 @@
 		<div class="small-6 medium-5 large-3">
 			<span class="pre-heading">logo</span>
 			<h3 class="h2 source-sans"><img src="assets/images/netto.svg" alt=""></h3>
+			<a href="data/netto_ot.ttf">Download in .ttf</a>
 		</div>
 
 		<div class="small-6 medium-5 large-3"></div>
