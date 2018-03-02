@@ -11,14 +11,13 @@
 
 	<div class="hero-inner">
 
-		<h1 class="title">steemit
+		<h1 class="title">steem
 			<br>
 			<span class="subtitle">design resources</span>
 		</h1>
 
 		<a href="https://drive.google.com/drive/folders/0ByYJdeOAU2QbazJRTHZsTWl0YXc?usp=sharing" target="_blank" class="button sec button-white border-radius">Download guidelines</a>
 		<br>
-		<a href="data/Steemit_Design_Guidelines.zip" class="white-text">.zip 2.8 MB</a>
 
 	</div>
 
@@ -32,10 +31,10 @@
 
 	<div class="row">
 		<div class="small-6 medium-3 large-3">
-			<img src="assets/images/steemit-logo-transparent.png" alt="steemit logo transparent">
+			<img src="assets/images/steemit-logo-transparent.png" alt="steem logo transparent">
 		</div>
 		<div class="small-6 medium-3 large-3">
-			<img src="assets/images/steemit-logo-blue.png" alt="steemit logo blue">
+			<img src="assets/images/steemit-logo-blue.png" alt="steem logo blue">
 		</div>
 	</div>
 
@@ -115,7 +114,7 @@
 				<span class="text">Copy HEX</span>
 			</div>
 			<br>
-			<strong>Steemit blue</strong>
+			<strong>steem blue</strong>
 			<br>
 			<span>RGB: 26, 80, 153 </span>
 			<br>
@@ -158,18 +157,20 @@
 			<br>
 			<a href="https://drive.google.com/drive/folders/0ByYJdeOAU2QbazJRTHZsTWl0YXc?usp=sharing" class="button prim border-radius" title="Download from google drive">Download guidelines</a>
 			<br><br>
-			<a href="data/Steemit_Design_Guidelines.zip">.zip 2.8 MB</a>
-			<br><br>
 			<br>
 		</div>
 
 		<div class="small-6 medium-3 large-3 centered">
 
-			<a href="https://steemit.com/@andrejcibik" class="author" target="_blank" title="My Steemit profile"></a>
+			<a href="https://steemit.com/@andrejcibik" class="author" target="_blank" title="My steem profile"></a>
 			<br>
 			<br>
-			<h3 class="h4">Tip the author <a href="https://steemit.com/@andrejcibik" target="_blank" title="My Steemit profile">@andrejcibik</a></h3>
-
+			<h3 class="h4">Tip the author <a href="https://steemit.com/@andrejcibik" target="_blank" title="My steem profile">@andrejcibik</a></h3>
+			25 year old designer and
+			<br>
+			front-end developer.
+		<?php
+		/*
 			<span class="donate" title="Click to copy">
 				<strong>BTC </strong> &nbsp;<span class="icon-copy"></span>
 				<span class="address">
@@ -184,7 +185,7 @@
 				<span class="address">
 					<img src="data/ltc.PNG" alt="">
 					<span class="text">Click to copy address :)</span>
-					<span class="data">0xF828Ddf7Ab60Bbee5862c22872d28C5e0218Ee89</span>
+					<span class="data">LRtdwiqTMXV4vmJ2bnKF1YaFjz2Sz15wsR</span>
 				</span>
 			</span>
 
@@ -193,14 +194,11 @@
 				<span class="address">
 					<img src="data/eth.PNG" alt="">
 					<span class="text">Click to copy address :)</span>
-					<span class="data">LRtdwiqTMXV4vmJ2bnKF1YaFjz2Sz15wsR</span>
+					<span class="data">0xF828Ddf7Ab60Bbee5862c22872d28C5e0218Ee89</span>
 				</span>
 			</span>
+			*/ ?>
 
-			<br><br>
-			24 year old designer and
-			<br>
-			front-end developer.
 
 		</div>
 
@@ -210,9 +208,9 @@
 	<div class="separator"></div>
 
 	<div class="footer centered">
-		I dont own the Steemit brand. This is my personal initiative and owners of Steemit brand have all the rights to all materials on this page.
+		I dont own the steem brand. This is my personal initiative.
 		<br>
-		© Steemit.com 2017
+		Created in 2017
 	</div>
 
 	<div class="separator small"></div>
